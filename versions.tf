@@ -13,7 +13,7 @@ terraform {
 ## provider block
 provider "aws" {
   region  = var.aws_region
-  profile = "default"
+  
 }
 
 ### The profile for API operations. If not set, the default profile created with aws configure will be used.
